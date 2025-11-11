@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elwin Daniel | Full-Stack Developer Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-content">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-code"></i> Elwin <span>Daniel</span>
+            </a>
+            <!-- Desktop Navigation -->
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="nav-contact-btn">Get In Touch</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="#" class="nav-logo">Elwin <span>Daniel</span></a>
+            <button class="mobile-menu-btn" id="mobile-menu-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="mobile-menu-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Get In Touch</a>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="section-wrapper">
+            <div class="hero-background"></div>
+            <h1 class="hero-title">
+                Elwin Daniel
+            </h1>
+            <p class="hero-subtitle">
+                Full-Stack Developer
+            </p>
+            <p class="hero-description">
+                I design and ship scalable web & mobile apps with React, Node.js, and cloud-ready architectures—fast,
+                reliable, and easy to maintain.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="hero-action-btn primary-btn">
+                    <i class="fas fa-code"></i> View My Work
+                </a>
+                <a href="#contact" class="hero-action-btn secondary-btn">
+                    <i class="fas fa-paper-plane"></i> Get In Touch
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-wrapper">
+            <h2 class="section-header">About Me</h2>
+            <div class="about-container">
+                <p class="about-text">
+                    I'm a full-stack developer focused on taking products from <span class="about-highlight">concept to
+                        production</span>. I build <span class="about-highlight">SaaS platforms, REST APIs, and mobile
+                        apps</span> using React, Node.js, TypeScript, and MongoDB, with Dockerized deployments and
+                    lightweight CI/CD. Recent work spans <span class="about-highlight">healthcare, recruitment, and
+                        real-time POS</span> with robust authentication, RBAC, and clean, testable backends.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-wrapper">
+            <h2 class="section-header">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <i class="devicon-react-original" aria-label="React" title="React"></i>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-angular-plain" aria-label="Angular" title="Angular"></i>
+                            <span class="skill-name">Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-typescript-plain" aria-label="TypeScript" title="TypeScript"></i>
+                            <span class="skill-name">TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-nextjs-original-wordmark" aria-label="NextJS"
+                                title="NextJS"></i>
+                            <span class="skill-name">NextJS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Mobile App</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <i class="devicon-flutter-plain" aria-label="Flutter" title="Flutter"></i>
+                            <span class="skill-name">Flutter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-react-original" aria-label="React Native"
+                                title="React Native"></i>
+                            <span class="skill-name">React Native</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-expo-original" aria-label="Expo"
+                                title="Expo"></i>
+                            <span class="skill-name">Expo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <i class="devicon-nodejs-plain" aria-label="Node.js" title="Node.js"></i>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-express-original" aria-label="Express" title="Express"></i>
+                            <span class="skill-name">Express</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-nestjs-plain" aria-label="NestJS" title="NestJS"></i>
+                            <span class="skill-name">NestJS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-csharp-plain" aria-label="C sharp" title="C sharp"></i>
+                            <span class="skill-name">C sharp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Database</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <i class="devicon-mongodb-plain" aria-label="MongoDB" title="MongoDB"></i>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-mysql-plain" aria-label="MySQL" title="MySQL"></i>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skills-icons">
+                        <div class="skill-item">
+                            <i class="devicon-docker-plain" aria-label="Docker" title="Docker"></i>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-git-plain" aria-label="Git" title="Git"></i>
+                            <span class="skill-name">Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-ubuntu-plain" aria-label="Ubuntu" title="LiUbuntunux"></i>
+                            <span class="skill-name">Ubuntu</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-nginx-original" aria-label="NGINX" title="NGINX"></i>
+                            <span class="skill-name">NGINX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="section-wrapper">
+            <h2 class="section-header">Featured Projects</h2>
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Healthcare Management Platform</h3>
+                    <p class="subtitle">Full-Stack SaaS</p>
+                    <p class="description">Patient records, appointments, billing with RBAC and audit trails. Built with
+                        modern security practices and scalable architecture.</p>
+                    <div class="stack">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>TypeScript</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" aria-label="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" aria-label="Source Code">
+                            <i class="fas fa-code"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Job Portal</h3>
+                    <p class="subtitle">Recruitment Platform</p>
+                    <p class="description">Advanced search, application tracking, employer dashboards with real-time
+                        notifications and analytics.</p>
+                    <div class="stack">
+                        <span>React</span>
+                        <span>Express.js</span>
+                        <span>MySQL</span>
+                        <span>Socket.io</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" aria-label="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" aria-label="Source Code">
+                            <i class="fas fa-code"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Real-Time POS</h3>
+                    <p class="subtitle">Inventory & Sales Tracking</p>
+                    <p class="description">Inventory management, sales tracking, reporting, and multi-device sync with
+                        offline capabilities.</p>
+                    <div class="stack">
+                        <span>React Native</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>WebSockets</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" aria-label="Live Demo">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="#" aria-label="Source Code">
+                            <i class="fas fa-code"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-wrapper">
+            <h2 class="section-header">Get In Touch</h2>
+
+            <div class="contact-grid">
+                <!-- Contact Details -->
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Newcastle upon Tyne, United Kingdom</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:elwindaniel13@gmail.com">elwindaniel13@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:07776684128">07776 684128</a>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/elwindaniel/" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/elwindaniel" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a> -->
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                   <form id="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdldO7LigPiFfx1dGiJd8PsRRaj31C6RT_jd9o9Qh2ghRDVWw/formResponse"
+ method="POST" target="hidden_iframe" onsubmit="submitted=true;" >
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="entry.2042145079" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="entry.1281201980" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" name="entry.641467063" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="entry.352268233" id="message"  rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <!-- Submission Message Area -->
+                        <div id="form-message"></div>
+                    </form>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            &copy; 2025 Elwin Daniel. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
